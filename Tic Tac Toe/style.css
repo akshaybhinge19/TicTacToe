@@ -1,0 +1,126 @@
+body {
+  text-align: center;
+  background-color: aqua;
+}
+h1 {
+  color: #d54d7b;
+  font-family: "Permanent Marker", cursive;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  text-align: center;
+  text-shadow: 0.4vw 0.4vw 0.4vw brown;
+}
+.game-area {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 4vw 3vw 4vw; /*top right bottom left*/
+  height: max-content;
+}
+.playground {
+  background-color: pink;
+  flex: 20%;
+  height: 30vw;
+  padding: 2vw;
+  border-radius: 1.5vw;
+  margin: 2vw 4vw 2vw 10vw;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  border-radius: 1.5vw;
+  box-shadow: 2vw 2vw 2vw brown;
+  border: solid black 2px;
+}
+.cell {
+  font-family: "Permanent Marker", cursive;
+  cursor: pointer;
+  font-size: 6vw;
+  font-weight: bold;
+  background-color: salmon;
+  margin: 0.5vw;
+  padding: 0px;
+  border-radius: 2vw;
+  height: 9vw;
+  width: 10vw;
+  text-shadow: 0.5vw 0.5vw 0.5vw brown;
+  box-shadow: 1vw 1vw 1vw 0.5vw brown;
+}
+.cell:hover {
+  transition: 0.2s ease-in-out;
+  transform: scale(1.1);
+}
+.terminal {
+  flex: 12%;
+  height: 30vw;
+  padding: 2vw;
+  border-radius: 1.5vw;
+  margin: 2vw 10vw 2vw 1vw;
+  background-color: pink;
+  border-radius: 1.5vw;
+  box-shadow: 2vw 2vw 2vw brown;
+  border: solid black 2px;
+}
+button,
+.gameOption,
+#score {
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5vw;
+  background-color: aqua;
+  color: #d54d7b;
+  font-weight: bold;
+  border-radius: 1.5vw;
+  border: none;
+  margin: 1.5vw;
+  padding: 1vw;
+  text-shadow: 0.15vw 0.15vw 0.15vw brown;
+  box-shadow: 2vw 2vw 2vw brown;
+}
+
+button:hover {
+  background: seashell;
+  color: black;
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+  transform: scale(1.1);
+}
+
+input:hover,
+label:hover,
+input:checked {
+  color: black;
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+  transform: scale(1.1);
+}
+
+p {
+  margin: 0px;
+}
+#score h4 {
+  padding: 0px;
+  margin: 0vw;
+}
+.player {
+  display: inline-block;
+  margin-left: 0.4vw;
+  margin-right: 0.4vw;
+  margin-bottom: 0.7vw;
+}
+
+.score-box,
+#status {
+  padding: 0.4vw;
+  color: black;
+  border-radius: 1vw;
+  margin: 1vw;
+  background-color: burlywood;
+  text-shadow: 0.15vw 0.15vw 0.15vw brown;
+  box-shadow: 0.5vw 0.5vw 0.5vw brown;
+}
+#status {
+  height: 4vw;
+  text-align: center;
+}

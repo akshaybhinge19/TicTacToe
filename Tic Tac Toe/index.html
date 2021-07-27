@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="icon" href="Resources\heading.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body>
+    <h1>Tic Tac Toe</h1>
+    <div class="game-area">
+        <div class="playground" id="playground" onclick="playTrack(event)">
+            <div class="cell" id="zero"></div>
+            <div class="cell" id="one"></div>
+            <div class="cell" id="two"></div>
+            <div class="cell" id="three"></div>
+            <div class="cell" id="four"></div>
+            <div class="cell" id="five"></div>
+            <div class="cell" id="six"></div>
+            <div class="cell" id="seven"></div>
+            <div class="cell" id="eight"></div>
+            <audio src="Resources\Onclick.mp3" id="audio"></audio>
+        </div>
+        <div class="terminal" id="terminal" onclick="terminal(event)">
+            <div>
+                <button id="start">START</button>                      
+                <button id="reset">RESET</button>  
+            </div>
+            <!-- <div class="gameOption">
+                <p>Game Option</p>            
+                <input type="radio" id="onePlayer" name="player nos" />
+                <label for="onePlayer">Single</label>
+                <input type="radio" id="twoPlayer" name="player nos"/>
+                <label for="twoPlayer"> Double </label>                
+            </div> -->
+            <div id="score">
+                <h4>scoreboard</h4>
+                <div class="player">
+                    <h4>Player 1</h4>
+                    <div class="score-box" id="p1">
+                      0
+                    </div>
+                </div>
+                <div class="player">
+                    <h4>Player 2</h4>
+                    <div class="score-box" id="p2">
+                      0
+                    </div>
+                </div>
+                <div id="status">Click Start to begin</div>
+            </div>           
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
