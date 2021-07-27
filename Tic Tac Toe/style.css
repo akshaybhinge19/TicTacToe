@@ -5,10 +5,10 @@ body {
 h1 {
   color: #d54d7b;
   font-family: "Permanent Marker", cursive;
-  font-size: 60px;
-  line-height: 60px;
+  font-size: 5vw;
+  line-height: 5vw;
   font-weight: bold;
-  margin-top: 30px;
+  margin-top: 3vw;
   margin-bottom: 0px;
   text-align: center;
   text-shadow: 0.4vw 0.4vw 0.4vw brown;
@@ -16,7 +16,7 @@ h1 {
 .game-area {
   display: flex;
   flex-direction: row;
-  margin: 0px 4vw 3vw 4vw; /*top right bottom left*/
+  margin: 0px 2vw 1.5vw 2vw; /*top right bottom left*/
   height: max-content;
 }
 .playground {
@@ -115,7 +115,7 @@ p {
   padding: 0.4vw;
   color: black;
   border-radius: 1vw;
-  margin: 1vw;
+  margin: 0.5vw;
   background-color: burlywood;
   text-shadow: 0.15vw 0.15vw 0.15vw brown;
   box-shadow: 0.5vw 0.5vw 0.5vw brown;
@@ -123,26 +123,4 @@ p {
 #status {
   height: 4vw;
   text-align: center;
-}
-@media (max-width: 550px) {
-  .terminal {
-    margin: 1vw 5vw 1vw 0.5vw;
-  }
-  #score {
-    margin: 0.8vw;
-  }
-  #gameName {
-    font-size: xx-large;
-  }
-}
-@media (max-width: 470px) {
-  .terminal {
-    margin: 1vw 5vw 1vw 0.5vw;
-  }
-  #score {
-    margin: 0.5vw;
-  }
-  #gameName {
-    font-size: x-large;
-  }
 }
