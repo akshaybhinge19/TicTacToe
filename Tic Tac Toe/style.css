@@ -124,3 +124,25 @@ p {
   height: 4vw;
   text-align: center;
 }
+@media (max-width: 550px) {
+  .terminal {
+    margin: 1vw 5vw 1vw 0.5vw;
+  }
+  #score {
+    margin: 0.8vw;
+  }
+  #gameName {
+    font-size: xx-large;
+  }
+}
+@media (max-width: 470px) {
+  .terminal {
+    margin: 1vw 5vw 1vw 0.5vw;
+  }
+  #score {
+    margin: 0.5vw;
+  }
+  #gameName {
+    font-size: x-large;
+  }
+}
