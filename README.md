@@ -1,7 +1,7 @@
 
-<h1 align="center">  <img src="https://github.com/akshaybhinge19/TicTacToe/blob/master/Tic%20Tac%20Toe/Resources/heading.png" width="35px" height="35px"/> 
+<h1 align="center">  <img src="https://github.com/akshaybhinge19/TicTacToe/blob/master/Resources/heading.png" width="35px" height="35px"/> 
   Tic-Tac-Toe 
-  <img src="https://github.com/akshaybhinge19/TicTacToe/blob/master/Tic%20Tac%20Toe/Resources/heading.png" width="35px" height="35px"/> 
+  <img src="https://github.com/akshaybhinge19/TicTacToe/blob/master/Resources/heading.png" width="35px" height="35px"/> 
   <p>
     <img src="https://img.shields.io/github/last-commit/akshaybhinge19/TicTacToe?label=Game%20file%20last%20commit" />
     <img src="https://img.shields.io/tokei/lines/github/akshaybhinge19/TicTacToe" />
@@ -14,7 +14,7 @@
 
 <h3 align="center" >Tic Tac Toe Game using HTML CSS and JavaScript</h3>
 <p align="center">
-  <img src="https://github.com/akshaybhinge19/TicTacToe/blob/master/Tic%20Tac%20Toe/Resources/tictactoegif.gif" />
+  <img src="https://github.com/akshaybhinge19/TicTacToe/blob/master/Resources/tictactoegif.gif" />
 
  </p>
 
