@@ -14,8 +14,9 @@
 
 <h3 align="center" >Tic Tac Toe Game using HTML CSS and JavaScript</h3>
 <p align="center">
-  <img src="https://github.com/akshaybhinge19/TicTacToe/blob/master/Resources/tictactoegif.gif" />
-
+  <a href="https://akshaybhinge19.github.io/TicTacToe/" target="blank"> <img src="https://github.com/akshaybhinge19/TicTacToe/blob/master/Resources/tictactoegif.gif" /></a>
+<!--   <img src="https://github.com/akshaybhinge19/TicTacToe/blob/master/Resources/tictactoegif.gif" /> -->
+ 
  </p>
 
 
