@@ -79,7 +79,7 @@ function playTrack(event){
     }    
     track(click);
     result();    
-    togglePlayer();
+    // togglePlayer();
 }
 
 // upadating array for tracking clicks
@@ -131,13 +131,23 @@ function result(){
     }
     if(roundStatus){
         status.innerHTML = current + " " + "won";
+        setTimeout(function(){
+            alert(`🎉🎉 ${current} won the game`);
+            // togglePlayer();
+        },30);        
         counter();          
         isStrted= false;
         return;                      
     }
     if(!clickTrack.includes(0)){
         status.innerHTML = "Game Draw";
+        setTimeout(function(){
+            alert(`Its Draw! Give it another Try`);
+        },30); 
         isStrted= false;
+    }
+    else{
+        togglePlayer();
     }
 }
 
