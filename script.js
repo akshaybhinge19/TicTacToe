@@ -54,6 +54,12 @@ function startingWindow(cell){
 // player change after each valid turn
 function togglePlayer(){
     current = (current==="player1") ? "player2":"player1";
+    if(current==="player1"){
+        status.innerHTML = "X's Turn";
+    }
+    else{
+        status.innerHTML = "O's Turn";
+    }
 }
 
 
@@ -132,8 +138,7 @@ function result(){
     if(roundStatus){
         status.innerHTML = current + " " + "won";
         setTimeout(function(){
-            alert(`🎉🎉 ${current} won the game`);
-            // togglePlayer();
+            Swal.fire({icon:'success', title: '🏆Congratualations!🏆', text: `🎉🎉 ${current} won`});
         },30);        
         counter();          
         isStrted= false;
@@ -142,7 +147,7 @@ function result(){
     if(!clickTrack.includes(0)){
         status.innerHTML = "Game Draw";
         setTimeout(function(){
-            alert(`Its Draw! Give it another Try`);
+            Swal.fire({title: 'Its Draw!', text: `Give it another Try`});
         },30); 
         isStrted= false;
     }
